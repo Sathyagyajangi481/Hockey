@@ -23,9 +23,9 @@ namespace HockeyIndia
 
             string handle = driver.CurrentWindowHandle;
 
-            for (int i = 1; i <= 7; i++)
+            for (int i = 2; i <= 7; i++)
 
-
+                                            
             {
                 Thread.Sleep(2000);
                 FunctionalLibrary.clickAction(driver, "/html/body/div[1]/header/section/div/div/div[2]/nav/ul/li["+i+"]/span", "xpath");
