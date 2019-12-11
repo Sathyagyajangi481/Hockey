@@ -28,7 +28,7 @@ namespace HockeyIndia
                                             
             {
                 Thread.Sleep(2000);
-                FunctionalLibrary.clickAction(driver, "/html/body/div[1]/header/section/div/div/div[2]/nav/ul/li["+i+"]/span", "xpath");
+                FunctionalLibrary.clickAction(driver, "/html/body/div[1]/header/section/div/div/div[2]/nav/ul/li[" + i + "]/span", "xpath");
 
                 Thread.Sleep(2000);
 
